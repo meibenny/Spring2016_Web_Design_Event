@@ -1,0 +1,12 @@
+.box{
+  height: 5em;
+}
+#box1{
+  background-color: black;
+}
+#box2{
+  background-color: gold;
+}
+#box3{
+  background-color: silver;
+}

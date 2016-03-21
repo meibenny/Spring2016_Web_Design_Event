@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type = "text/css" href="boxes.css">
     <title>Hello World!</title>
   </head>
   <body>
@@ -50,5 +52,46 @@
       simplificat Angles, quam un skeptic Cambridge amico dit me que 
       Occidental es.
     </p>
+    <div id='dom'>
+      <h2>The DOM</h2>
+      <p>
+        The Document Object Model (DOM) is a convention for representing
+        and interacting with HTML documents, such as this one. Because 
+        HTML documents follow a standard convention, a multitude of 
+        programming languages can interact with the same document 
+        without having to worry about differing implementations of the 
+        specific document. This is good.
+      </p>
+    </div>
+    <div id='html'>
+      <h2>HTML</h2>
+      <p>
+        HyperText Markup Language (HTML) is the language used to create
+        the <strong>content</strong> of every single web page you see 
+        on the Internet today.
+        When writing HTML, it's sometimes simpler to think of the 
+        objects that you interact with as rectangles. As you add more 
+        content to your HTML document, you add more rectangles to the 
+        page. For example:
+        <div>
+          &lt;div class='box' id='box1' &gt;
+          &lt;/div&gt;
+        </div>
+        <div>
+          &lt;div class='box' id='box2' &gt;
+          &lt;/div&gt;
+        </div>
+        <div>
+          &lt;div class='box' id='box3' &gt;
+          &lt;/div&gt;
+        </div>
+        <div>
+          creates the three boxes below.
+        </div>
+      </p>
+      <div class='box' id='box1'></div>
+      <div class='box' id='box2'></div>
+      <div class='box' id='box3'></div>
+    </div>
   </body>
 </html>
