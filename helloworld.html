@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type = "text/css" href="boxes.css">
+    <script src="scripts.js"></script>
     <title>Hello World!</title>
   </head>
   <body>
@@ -92,6 +93,63 @@
       <div class='box' id='box1'></div>
       <div class='box' id='box2'></div>
       <div class='box' id='box3'></div>
+    </div>
+    <div id="css">
+      <h2>CSS</h2>
+      <p>
+        Cascading Style Sheets (CSS) is the language used to describe 
+        how a HTML document should look. It is used to specify the 
+        <strong>design</strong> of a web page.
+        CSS interacts with HTML through the <em>class</em> and 
+        <em>id</em> tags. For example: 
+          <div>
+            &lt;div class='box' id='box1' &gt;
+            &lt;/div&gt;
+          </div>
+        "box" is a class tag, and "box1" is an id tag.
+        We actually used CSS to create the design of the three colored 
+        boxes. The code for that looks like this:
+          <div id="css-example-code">
+            <code>
+              <div id='box-style'>
+              .box{
+                height: 5em;
+              }
+              </div>
+              <div id='box1-style'>
+              #box1{
+                background-color: black;
+              }
+              </div>
+              <div id='box2-style'>
+              #box2{
+                background-color: gold;
+              }
+              </div>
+              <div id='box3-style'>
+              #box3{
+                background-color: silver;
+              }
+              </div>
+            </code>
+          </div>
+      </p>
+    </div>
+    <div id='javascript'>
+      <h2>JavaScript</h2>
+      <p>
+        JavaScript (JS) is the last of the three essential technologies of 
+        making websites. It is a full-featured programming language, and
+        it is Turing complete, which means that it is just as powerful 
+        as any other programming language that exists (e.g. C, C++, 
+        Java, just to name a few).
+        
+        We can use JavaScript to do a lot of things, like get the 
+        current date and time!        
+        <div id='js-playground'>
+          <script>getDate()</script>
+        </div>
+      </p>
     </div>
   </body>
 </html>
